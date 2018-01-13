@@ -25,20 +25,38 @@ namespace SDET_QA_TEST
             bool quitFlag = false;
             while (!quitFlag)
             {
+                string statePattern = @"^([\sA-Za-z]+)$";
                 Console.WriteLine("\n Please enter the state name ");
-                stateName = Console.ReadLine();               
-                Console.WriteLine("\n Please enter the state abbrivation");
-                string pattern = "[A-Z]";
-                stateAbbrivation = Console.ReadLine();
-                bool abbStatus = Regex.IsMatch(stateAbbrivation, pattern);
-                if(abbStatus)
+                stateName = Console.ReadLine();
+                bool stateStatus = Regex.IsMatch(stateName, statePattern);
+                if (!stateStatus)
                 {
-                    Console.WriteLine("\n Please enter the correct format of abbrivation");                   
+                    Console.WriteLine("\n Please enter the correct format of state");
+                    Console.WriteLine("\n Press q to quit");
+                    Console.ReadLine();
+                    break;
                 }
+
+                Console.WriteLine("\n Please enter the state abbrivation");
+                string abbrPattern = @"^([\sA-Za-z]+)$";
+               
+                stateAbbrivation = Console.ReadLine();
+                bool abbStatus = Regex.IsMatch(stateAbbrivation, abbrPattern);
+                if(!abbStatus)
+                {
+                    Console.WriteLine("\n Please enter the correct format of abbrivation");
+                    Console.WriteLine("\n Press q to quit");
+                    Console.ReadLine();
+                    break;
+                }
+              
+
                 if (string.IsNullOrWhiteSpace(stateAbbrivation) && string.IsNullOrWhiteSpace(stateName))
                 {
                     Console.WriteLine("\n Please enter the correct format of state or abbrivation");
                     Console.WriteLine("\n Press q to quit");
+                    Console.ReadLine();
+                    break;
                 }
                 else
                 {
