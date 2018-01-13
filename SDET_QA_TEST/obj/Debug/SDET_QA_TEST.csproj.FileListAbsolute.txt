@@ -1,0 +1,9 @@
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\obj\Debug\SDET_QA_TEST.csprojResolveAssemblyReference.cache
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\obj\Debug\SDET_QA_TEST.csproj.CoreCompileInputs.cache
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\bin\Debug\SDET_QA_TEST.exe.config
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\bin\Debug\SDET_QA_TEST.exe
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\bin\Debug\SDET_QA_TEST.pdb
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\bin\Debug\Newtonsoft.Json.dll
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\bin\Debug\Newtonsoft.Json.xml
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\obj\Debug\SDET_QA_TEST.exe
+c:\users\velam\source\repos\SDET_QA_TEST\SDET_QA_TEST\obj\Debug\SDET_QA_TEST.pdb
